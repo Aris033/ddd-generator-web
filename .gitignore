@@ -1,0 +1,79 @@
+HELP.md
+
+### Maven / Java ###
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# OJO: normalmente NO ignores el Maven wrapper jar
+# .mvn/wrapper/maven-wrapper.jar
+
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Logs ###
+*.log
+logs/
+
+### Environment / secrets ###
+.env
+.env.*
+!.env.example
+application-local.properties
+application-dev-local.properties
+application-prod.properties
+*.pem
+*.key
+*.p12
+*.jks
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Frontend ###
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.tsbuildinfo
+
+### OS ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Docker / local generated files ###
+docker-compose.override.yml
+
+### Generated project output ###
+generated/
+generated-projects/
+output/
+tmp/
