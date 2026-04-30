@@ -197,7 +197,7 @@ function App() {
       <section className="hero">
         <div className="logo-stage">
           <div className="logo-card">
-            <img src="/aris033-logo.png" alt="Aris033 pixel art Java React SQL logo" />
+            <img src="/landing-preview.png" alt="DDD Hexagonal Project Generator preview" />
           </div>
           <div className="hero-actions">
             <button type="button" className="primary start-button" onClick={goToBuilder}>

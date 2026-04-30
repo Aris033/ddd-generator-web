@@ -144,7 +144,7 @@ h1 {
 
 .logo-stage {
   display: grid;
-  width: min(760px, 100%);
+  width: min(1180px, 100%);
   align-content: center;
 }
 
@@ -161,8 +161,8 @@ h1 {
 .logo-card img {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 7;
-  object-fit: cover;
+  aspect-ratio: 8 / 3;
+  object-fit: contain;
 }
 
 .process-flow {
